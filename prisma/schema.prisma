@@ -7,21 +7,38 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model Project {
+model User {
   id        String    @id @default(cuid())
-  name      String
-  prompt    String
-  type      String    @default("fullstack")
-  model     String    @default("blink-1.0-lite")
+  email     String?   @unique
+  name      String?
   createdAt DateTime  @default(now())
   updatedAt DateTime  @updatedAt
-  messages  Message[]
+  projects  Project[]
+}
+
+model Project {
+  id              String    @id @default(cuid())
+  name            String
+  prompt          String
+  type            String    @default("fullstack")
+  model           String    @default("blink-1.0-lite")
+  subdomain       String?   @unique
+  deploymentUrl   String?
+  deploymentId    String?
+  status          String    @default("draft") // draft, building, deployed, error
+  files           Json?     // Store generated files as JSON
+  userId          String?
+  user            User?     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
+  messages        Message[]
 }
 
 model Message {
   id        String   @id @default(cuid())
   role      String
   content   String
+  streaming Boolean  @default(false)
   projectId String
   project   Project  @relation(fields: [projectId], references: [id], onDelete: Cascade)
   createdAt DateTime @default(now())
