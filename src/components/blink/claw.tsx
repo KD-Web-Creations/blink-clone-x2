@@ -20,6 +20,7 @@ import {
   Cloud,
   Code2,
   Layers,
+  MessageSquare,
 } from 'lucide-react';
 
 const clawPlans = [
