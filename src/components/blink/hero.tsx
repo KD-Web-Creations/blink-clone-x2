@@ -36,11 +36,11 @@ interface ModelOption {
 
 const modelGroups: { provider: string; models: ModelOption[] }[] = [
   {
-    provider: 'Blink',
+    provider: 'CreAIlity',
     models: [
-      { id: 'blink-1.0-lite', name: 'Blink 1.0 Lite', provider: 'Blink' },
-      { id: 'blink-1.0', name: 'Blink 1.0', provider: 'Blink' },
-      { id: 'blink-1.0-pro', name: 'Blink 1.0 Pro', provider: 'Blink' },
+      { id: 'blink-1.0-lite', name: 'CreAIlity 1.0 Lite', provider: 'CreAIlity' },
+      { id: 'blink-1.0', name: 'CreAIlity 1.0', provider: 'CreAIlity' },
+      { id: 'blink-1.0-pro', name: 'CreAIlity 1.0 Pro', provider: 'CreAIlity' },
     ],
   },
   {

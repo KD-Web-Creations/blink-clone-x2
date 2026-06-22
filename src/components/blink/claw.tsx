@@ -111,7 +111,7 @@ export function Claw() {
         <div className="text-center mb-16">
           <div className="inline-flex items-center gap-1.5 text-sm font-medium px-4 py-2 rounded-full bg-[#216BE4]/10 text-[#216BE4] mb-6">
             <Rocket className="w-4 h-4" />
-            Blink Claw — Managed AI Agent Hosting
+            CreAIlity Agents — Managed AI Agent Hosting
           </div>
           <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight mb-4">
             Deploy AI Agents in{' '}
@@ -157,7 +157,7 @@ export function Claw() {
                 step: '2',
                 icon: Rocket,
                 title: 'Deploy to Claw',
-                description: 'Push your agent to Blink Claw with a single command. We handle the rest — servers, scaling, and security.',
+                description: 'Push your agent to CreAIlity Agents with a single command. We handle the rest — servers, scaling, and security.',
               },
               {
                 step: '3',
@@ -186,7 +186,7 @@ export function Claw() {
         {/* Comparison Table */}
         <div className="mb-16">
           <h2 className="text-3xl font-bold tracking-tight text-center mb-10">
-            Self-Hosting vs Blink Claw
+            Self-Hosting vs CreAIlity Agents
           </h2>
           <div className="bg-card border border-border rounded-xl overflow-hidden">
             <div className="grid grid-cols-3 gap-px bg-border">
@@ -197,7 +197,7 @@ export function Claw() {
               </div>
               <div className="bg-card p-4 font-semibold text-sm text-center flex items-center justify-center gap-2">
                 <Zap className="w-4 h-4 text-[#216BE4]" />
-                Blink Claw
+                CreAIlity Agents
               </div>
             </div>
             {comparisonFeatures.map((row, i) => (
@@ -371,7 +371,7 @@ export function Claw() {
         {/* CTA */}
         <div className="text-center border-t border-border pt-12">
           <h3 className="text-2xl font-bold mb-3">Ready to deploy your AI agents?</h3>
-          <p className="text-muted-foreground mb-6">Get started with Blink Claw in under 60 seconds.</p>
+          <p className="text-muted-foreground mb-6">Get started with CreAIlity Agents in under 60 seconds.</p>
           <Button
             onClick={() => navigate('builder')}
             className="bg-[#216BE4] hover:bg-[#1B5BC7] text-white font-semibold px-7 py-3 rounded-lg text-base"

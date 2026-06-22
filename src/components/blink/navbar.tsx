@@ -31,12 +31,7 @@ export function Navbar() {
           {/* Left */}
           <div className="flex items-center gap-8">
             <button onClick={() => handleNavClick('home')} className="flex items-center gap-2 hover:opacity-80 transition-opacity">
-              <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-orange-500 to-blue-500 flex items-center justify-center">
-                <span className="text-white font-black text-sm">C</span>
-              </div>
-              <span className="text-lg font-bold tracking-tight">
-                Cre<span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500 font-black">AI</span>lity
-              </span>
+              <img src="/images/creality-logo.png" alt="CreAIlity" className="h-8 w-auto" />
             </button>
 
             {/* Desktop nav links */}

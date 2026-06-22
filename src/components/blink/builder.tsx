@@ -312,9 +312,7 @@ export function Builder() {
             <ArrowLeft className="w-5 h-5" />
           </button>
           <div className="flex items-center gap-2">
-            <div className="w-8 h-8 rounded-md bg-gradient-to-br from-orange-500 to-blue-500 flex items-center justify-center">
-              <span className="text-white font-black text-sm">C</span>
-            </div>
+            <img src="/images/creality-logo.png" alt="CreAIlity" className="h-8 w-auto" />
             <div>
               <h1 className="text-sm font-semibold">
                 {currentProject?.name || projectType?.replace('-', ' ') || 'Full Stack App'}
@@ -498,7 +496,7 @@ export function Builder() {
               {messages.length === 0 && !isLoading && (
                 <div className="text-center py-12 text-muted-foreground">
                   <Bot className="w-10 h-10 mx-auto mb-3 text-[#216BE4]" />
-                  <p className="text-sm font-medium">Blink AI</p>
+                  <p className="text-sm font-medium">CreAIlity AI</p>
                   <p className="text-xs mt-1">Describe what you want to build</p>
                 </div>
               )}
