@@ -31,11 +31,12 @@ export function Navbar() {
           {/* Left */}
           <div className="flex items-center gap-8">
             <button onClick={() => handleNavClick('home')} className="flex items-center gap-2 hover:opacity-80 transition-opacity">
-              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect width="32" height="32" rx="8" fill="#216BE4" />
-                <path d="M8 10h6v2H10v3h3v2H10v5H8V10zm9 0h3c2.2 0 4 1.8 4 4s-1.8 4-4 4h-1v4h-2V10zm3 6c1.1 0 2-.9 2-2s-.9-2-2-2h-1v4h1z" fill="white" />
-              </svg>
-              <span className="text-lg font-bold tracking-tight">Blink</span>
+              <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-orange-500 to-blue-500 flex items-center justify-center">
+                <span className="text-white font-black text-sm">C</span>
+              </div>
+              <span className="text-lg font-bold tracking-tight">
+                Cre<span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500 font-black">AI</span>lity
+              </span>
             </button>
 
             {/* Desktop nav links */}

@@ -312,8 +312,8 @@ export function Builder() {
             <ArrowLeft className="w-5 h-5" />
           </button>
           <div className="flex items-center gap-2">
-            <div className="w-8 h-8 rounded-md bg-[#216BE4]/10 flex items-center justify-center">
-              <Bot className="w-5 h-5 text-[#216BE4]" />
+            <div className="w-8 h-8 rounded-md bg-gradient-to-br from-orange-500 to-blue-500 flex items-center justify-center">
+              <span className="text-white font-black text-sm">C</span>
             </div>
             <div>
               <h1 className="text-sm font-semibold">

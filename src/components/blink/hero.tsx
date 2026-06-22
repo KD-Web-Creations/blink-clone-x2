@@ -144,7 +144,7 @@ export function Hero() {
           <span className="text-[10px] font-bold px-1.5 py-0.5 rounded bg-[#216BE4] text-white leading-none">
             NEW
           </span>
-          Meet Blink Claw — AI agents that work 24/7
+          Meet CreAIlity Agents — AI that works 24/7
           <ArrowRight className="w-4 h-4" />
         </button>
       </div>
@@ -153,13 +153,17 @@ export function Hero() {
       <div className="px-6 pt-8 pb-16 text-center">
         <div className="max-w-[720px] mx-auto animate-fade-in-up">
           <h1 className="text-4xl sm:text-5xl md:text-[56px] font-extrabold tracking-tight leading-[1.1] mb-10">
-            Don&apos;t just think it
+            Create ANYTHING...
             <br />
-            <span
-              className="bg-gradient-to-br from-[#216BE4] to-[#6366f1] bg-clip-text"
-              style={{ WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}
-            >
-              Blink it
+            <span className="inline-flex items-baseline gap-1">
+              <span className="text-foreground">with Cre</span>
+              <span 
+                className="font-black text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500"
+                style={{ WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}
+              >
+                AI
+              </span>
+              <span className="text-foreground">lity!</span>
             </span>
           </h1>
 
