@@ -1,6 +1,6 @@
 # Blink - AI App Builder
 
-A full-featured AI app builder platform clone. Build websites, SaaS, and mobile apps in minutes by chatting with AI.
+A full-featured AI app builder platform clone. Build websites, SaaS, and mobile apps in minutes by chatting with AI. 
 
 ## Features
 
